@@ -43,4 +43,9 @@ public class TestController {
 		test1.test();
 	}
 	
+	@GetMapping("/test2")
+	public void test2() {
+		// will add constrainant and how to use the h2 and jpa to connect db
+	}
+	
 }
